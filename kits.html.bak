@@ -1,0 +1,1254 @@
+<!doctype html>
+<html class="no-js" lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Alcaldia</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="assets/images/favicon.png" rel="shortcut icon" type="image/x-icon">
+
+  <!--stylesheet-->
+  <!--normalize css-->
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <!--bootstrap css-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- css CDN -->
+  <link rel="stylesheet" href="assets/css/cdnv3.css">
+  <!--fontawesome css-->
+  <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+  <!--google fonts -->
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
+  <!--carousel css-->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <!--style css-->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!--responsive css-->
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body id="page-top">
+	<!--[if lte IE 9]>
+	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+	<![endif]-->
+	
+	
+	<!--========================================================================================
+								Start header area
+	=========================================================================================-->
+	<header class="header-area">
+		<nav class="top-header navbar navbar-expand-lg navbar-gov-co">
+			<div class="container">
+				<div class="navbar-gov-co-pri container-fluid">
+					<div class="top-header-logo">
+						<a href="#"><img src="assets/images/logo/top-logo.png" alt="logo"></a>
+					</div>
+					<div class="language-icon-area">
+						<div class="nav-primary mx-auto">
+							<ul class="navbar-nav ml-auto nav-items nav-items-desktop"></ul>
+						</div>
+						<div class="flag nav-item-primary ml-auto mr-2">
+							<a href="#" class="flag_link en" data-lang="en"><span class="govco-icon govco-icon-language-en-n lang-govco ml-3"></span></a>
+							<a href="#" class="flag_link es" data-lang="es"><span class="govco-icon govco-icon-language-es-n lang-govco ml-3"></span></a>
+						</div>
+						<div id="google_translate_element"></div>
+					</div>
+				</div>
+		   </div>
+		</nav>
+		
+		<div class="container">
+			<div class="header-logo-area navbar-gov-co-search ">
+				<div class="logo-main-area">
+					<div class="logo-area">
+						<a href="#"><img src="assets/images/logo/logo.png" alt="logo"></a>
+					</div>
+					<div class="menu-icon-area">
+						<span>Menú</span>
+						<div class="canvas-icon bar-area">
+							<div class="nav-wMore"><div></div><div></div><div></div></div>
+						</div>
+					</div>
+				</div>
+			   <div class="content-search header-right-area">
+					<div class="inciar-title">
+						<a href="#">Iniciar sesión</a>
+					</div>
+					<div class="form-group gov-co-form-group form-group-search">
+						<form>
+							<input type="search" class="form-control gov-co-form-control" id="idSearch" placeholder="Buscar en tramites" />
+							<button type="submit"><span class="govco-icon govco-icon-search-cn"></span></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="header-menu-area">
+			<div class="container">
+				<nav class="navbar navbar-gov-co-sedes ">
+				   <div class="menubar-area navbar-navs">
+					  <ul>
+						 <li>
+							<a class="nav-link" href="#">Inicio</a>
+						 </li>
+						 <li class="item-menu-single">
+							<a
+							   class="nav-link"
+							   href="#"
+							   id="menuSingleAcceso"
+							   role="button"
+							   data-toggle="dropdown"
+							   aria-haspopup="true"
+							   aria-expanded="false"
+							>
+							   Transparencia y acceso información pública<span class="fa fa-chevron-down"></span>
+							</a>
+							<div class="dropdown-menu single-menu" aria-labelledby="menuSingleAcceso">
+							   <a href="#">Información entidad</a>
+							   <a href="#">Normativa</a>
+							   <a href="#">Contratación</a>
+							   <a href="#">Trámites</a>
+							   <a href="#">Participa</a>
+							   <a href="#">Planeación, presupuestos e informes</a>
+							   <a href="#">Datos abiertos</a>
+							   <a href="#">Información grupos de interés</a>
+							   <a href="#">Reporte información entidad</a>
+							   <a href="#">Información tributaria (según aplique)</a>
+							</div>
+						 </li>
+						 <li class="item-menu-single">
+							<a
+							   class="nav-link"
+							   href="#"
+							   id="menuSingleAtencion"
+							   role="button"
+							   data-toggle="dropdown"
+							   aria-haspopup="true"
+							   aria-expanded="false"
+							>
+							   Atención y Servicios a la ciudadanía<span class="fa fa-chevron-down"></span>
+							</a>
+							<div class="dropdown-menu single-menu" aria-labelledby="menuSingleAtencion">
+							   <a href="#">Trámites, OPA y consulta de info</a>
+							   <a href="#">Canales de atención</a>
+							   <a href="#">Contratación</a>
+							   <a href="#">Recepción de solicitudes (PQRS)</a>
+							</div>
+						 </li>
+						 <li class="item-menu-single">
+							<a
+							   class="nav-link"
+							   href="#"
+							   id="menuSingleParticipa"
+							   role="button"
+							   data-toggle="dropdown"
+							   aria-haspopup="true"
+							   aria-expanded="false"
+							   >Participa<span class="fa fa-chevron-down"></span></a
+							>
+							<div class="dropdown-menu single-menu" aria-labelledby="menuSingleParticipa">
+							   <a href="#">Identificación problemas y diagnóstico de necesidades</a>
+							   <a href="#">Planeación y/o presupuesto participativo</a>
+							   <a href="#">Participación y consulta ciudadana</a>
+							   <a href="#">Colaboración e innovación abierta</a>
+							   <a href="#">Rendición de cuentas</a>
+							   <a href="#">Control ciudadano</a>
+							   <a href="#">Información tributaria</a>
+							</div>
+						 </li>
+						 <li>
+							<a class="nav-link" href="#">La Alcaldía</a>
+						 </li>
+						 </li>
+					  </ul>
+				   </div>
+				   <div class="navbar-right-area navbar-button dropdown">
+						<div class="bar-area">
+							<div class="nav-wMore"><div></div><div></div><div></div></div>
+						</div>
+					  <div class="right-sub-menu-area dropdown-menu dinamic-menu" aria-labelledby="menuDinamic">
+						 <ul>
+							<li>
+							   <a href="#" id="menuDinamicA" data-toggle="dropdown"> ítem menú adicional 1 </a>
+							   <div class="dropdown-menu navs-menu-dinamic">
+								  <ul>
+									 <li><a href="#">Nombre subsección 1</a></li>
+									 <li><a href="#">Nombre subsección 2</a></li>
+									 <li><a href="#">Nombre subsección 3</a></li>
+									 <li><a href="#">Nombre subsección 4</a></li>
+									 <li><a href="#">Nombre subsección 5</a></li>
+									 <li><a href="#">Nombre subsección 6</a></li>
+									 <li><a href="#">Nombre subsección 7</a></li>
+									 <li><a href="#">Nombre subsección 8</a></li>
+									 <li><a href="#">Nombre subsección 9</a></li>
+								  </ul>
+							   </div>
+							</li>
+							<li>
+							   <a href="#" id="menuDinamicB" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								  ítem menú adicional 2
+							   </a>
+							   <div class="dropdown-menu navs-menu-dinamic" aria-labelledby="menuDinamicB">
+								  <ul>
+									 <li><a href="#">Nombre subsección 1</a></li>
+									 <li><a href="#">Nombre subsección 2</a></li>
+									 <li><a href="#">Nombre subsección 3</a></li>
+									 <li><a href="#">Nombre subsección 4</a></li>
+									 <li><a href="#">Nombre subsección 5</a></li>
+									 <li><a href="#">Nombre subsección 6</a></li>
+									 <li><a href="#">Nombre subsección 7</a></li>
+									 <li><a href="#">Nombre subsección 8</a></li>
+									 <li><a href="#">Nombre subsección 9</a></li>
+								  </ul>
+							   </div>
+							</li>
+							<li>
+							   <a href="#" id="menuDinamicC" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+								  >ítem menú adicional 3</a
+							   >
+							   <div class="dropdown-menu navs-menu-dinamic" aria-labelledby="menuDinamicC">
+								  <ul>
+									 <li><a href="#">Nombre subsección 1</a></li>
+									 <li><a href="#">Nombre subsección 2</a></li>
+									 <li><a href="#">Nombre subsección 3</a></li>
+									 <li><a href="#">Nombre subsección 4</a></li>
+									 <li><a href="#">Nombre subsección 5</a></li>
+									 <li><a href="#">Nombre subsección 6</a></li>
+									 <li><a href="#">Nombre subsección 7</a></li>
+									 <li><a href="#">Nombre subsección 8</a></li>
+									 <li><a href="#">Nombre subsección 9</a></li>
+								  </ul>
+							   </div>
+							</li>
+							<li>
+							   <a href="#" id="menuDinamicD" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+								  >ítem menú adicional 4</a
+							   >
+							   <div class="dropdown-menu navs-menu-dinamic" aria-labelledby="menuDinamicD">
+								  <ul>
+									 <li><a href="#">Nombre subsección 1</a></li>
+									 <li><a href="#">Nombre subsección 2</a></li>
+									 <li><a href="#">Nombre subsección 3</a></li>
+									 <li><a href="#">Nombre subsección 4</a></li>
+									 <li><a href="#">Nombre subsección 5</a></li>
+									 <li><a href="#">Nombre subsección 6</a></li>
+									 <li><a href="#">Nombre subsección 7</a></li>
+									 <li><a href="#">Nombre subsección 8</a></li>
+									 <li><a href="#">Nombre subsección 9</a></li>
+								  </ul>
+							   </div>
+							</li>
+							<li>
+							   <a href="#" id="menuDinamicE" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+								  >ítem menú adicional 5</a
+							   >
+							   <div class="dropdown-menu navs-menu-dinamic" aria-labelledby="menuDinamicE">
+								  <ul>
+									 <li><a href="#">Nombre subsección 1</a></li>
+									 <li><a href="#">Nombre subsección 2</a></li>
+									 <li><a href="#">Nombre subsección 3</a></li>
+									 <li><a href="#">Nombre subsección 4</a></li>
+									 <li><a href="#">Nombre subsección 5</a></li>
+									 <li><a href="#">Nombre subsección 6</a></li>
+									 <li><a href="#">Nombre subsección 7</a></li>
+									 <li><a href="#">Nombre subsección 8</a></li>
+									 <li><a href="#">Nombre subsección 9</a></li>
+								  </ul>
+							   </div>
+							</li>
+							<li>
+							   <a href="#" id="menuDinamicF" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+								  >ítem menú adicional 6</a
+							   >
+							   <div class="dropdown-menu navs-menu-dinamic" aria-labelledby="menuDinamicF">
+								  <ul>
+									 <li><a href="#">Nombre subsección 1</a></li>
+									 <li><a href="#">Nombre subsección 2</a></li>
+									 <li><a href="#">Nombre subsección 3</a></li>
+									 <li><a href="#">Nombre subsección 4</a></li>
+									 <li><a href="#">Nombre subsección 5</a></li>
+									 <li><a href="#">Nombre subsección 6</a></li>
+									 <li><a href="#">Nombre subsección 7</a></li>
+									 <li><a href="#">Nombre subsección 8</a></li>
+									 <li><a href="#">Nombre subsección 9</a></li>
+								  </ul>
+							   </div>
+							</li>
+							<li>
+							   <a href="#" id="menuDinamicG" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+								  >ítem menú adicional 7</a
+							   >
+							   <div class="dropdown-menu navs-menu-dinamic" aria-labelledby="menuDinamicG">
+								  <ul>
+									 <li><a href="#">Nombre subsección 1</a></li>
+									 <li><a href="#">Nombre subsección 2</a></li>
+									 <li><a href="#">Nombre subsección 3</a></li>
+									 <li><a href="#">Nombre subsección 4</a></li>
+									 <li><a href="#">Nombre subsección 5</a></li>
+									 <li><a href="#">Nombre subsección 6</a></li>
+									 <li><a href="#">Nombre subsección 7</a></li>
+									 <li><a href="#">Nombre subsección 8</a></li>
+									 <li><a href="#">Nombre subsección 9</a></li>
+								  </ul>
+							   </div>
+							</li>
+							<li>
+							   <a href="#" id="menuDinamicH" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+								  >ítem menú adicional 8</a
+							   >
+							   <div class="dropdown-menu navs-menu-dinamic" aria-labelledby="menuDinamicH">
+								  <ul>
+									 <li><a href="#">Nombre subsección 1</a></li>
+									 <li><a href="#">Nombre subsección 2</a></li>
+									 <li><a href="#">Nombre subsección 3</a></li>
+									 <li><a href="#">Nombre subsección 4</a></li>
+									 <li><a href="#">Nombre subsección 5</a></li>
+									 <li><a href="#">Nombre subsección 6</a></li>
+									 <li><a href="#">Nombre subsección 7</a></li>
+									 <li><a href="#">Nombre subsección 8</a></li>
+									 <li><a href="#">Nombre subsección 9</a></li>
+								  </ul>
+							   </div>
+							</li>
+							<li>
+							   <a href="#" id="menuDinamicI" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+								  >ítem menú adicional 9</a
+							   >
+							   <div class="dropdown-menu navs-menu-dinamic" aria-labelledby="menuDinamicI">
+								  <ul>
+									 <li><a href="#">Nombre subsección 1</a></li>
+									 <li><a href="#">Nombre subsección 2</a></li>
+									 <li><a href="#">Nombre subsección 3</a></li>
+									 <li><a href="#">Nombre subsección 4</a></li>
+									 <li><a href="#">Nombre subsección 5</a></li>
+									 <li><a href="#">Nombre subsección 6</a></li>
+									 <li><a href="#">Nombre subsección 7</a></li>
+									 <li><a href="#">Nombre subsección 8</a></li>
+									 <li><a href="#">Nombre subsección 9</a></li>
+								  </ul>
+							   </div>
+							</li>
+						 </ul>
+					  </div>
+				   </div>
+				</nav>
+			</div>
+		</div>
+		
+		<!-- mobile menu -->
+		<div class="mobile-menu-area">
+			<div class="container-area">
+				<div class="mobile-menu-logo">
+					<a href="#"><img src="assets/images/logo/logo.png" alt="logo"></a>
+					<div class="canvas-icon close-area">
+						<div class="close">
+							<div class="close-icon"></div>
+						</div>
+					</div>
+				</div>
+				<nav class="navbar navbar-gov-co-sedes ">
+				   <div class="menubar-area navbar-navs">
+					  <ul>
+						 <li>
+							<a class="nav-link" href="#">Inicio</a>
+						 </li>
+						 <li class="item-menu-single">
+							<a
+							   class="dropdown-item nav-link" href="#"
+							>
+							   Transparencia y acceso información pública
+							</a>
+							<div class="dropdown-menu single-menu">
+							   <a href="#">Información entidad</a>
+							   <a href="#">Normativa</a>
+							   <a href="#">Contratación</a>
+							   <a href="#">Trámites</a>
+							   <a href="#">Participa</a>
+							   <a href="#">Planeación, presupuestos e informes</a>
+							   <a href="#">Datos abiertos</a>
+							   <a href="#">Información grupos de interés</a>
+							   <a href="#">Reporte información entidad</a>
+							   <a href="#">Información tributaria (según aplique)</a>
+							</div>
+						 </li>
+						 <li class="item-menu-single">
+							<a
+							   class="dropdown-item nav-link" href="#"
+							>
+							   Atención y Servicios a la ciudadanía
+							</a>
+							<div class="dropdown-menu single-menu">
+							   <a href="#">Trámites, OPA y consulta de info</a>
+							   <a href="#">Canales de atención</a>
+							   <a href="#">Contratación</a>
+							   <a href="#">Recepción de solicitudes (PQRS)</a>
+							</div>
+						 </li>
+						 <li class="item-menu-single">
+							<a
+							   class="dropdown-item nav-link" href="#"
+							   >Participa</a
+							>
+							<div class="dropdown-menu single-menu">
+							   <a href="#">Identificación problemas y diagnóstico de necesidades</a>
+							   <a href="#">Planeación y/o presupuesto participativo</a>
+							   <a href="#">Participación y consulta ciudadana</a>
+							   <a href="#">Colaboración e innovación abierta</a>
+							   <a href="#">Rendición de cuentas</a>
+							   <a href="#">Control ciudadano</a>
+							   <a href="#">Información tributaria</a>
+							</div>
+						 </li>
+						 <li>
+							<a class="nav-link" href="#">La Alcaldía</a>
+						 </li>
+						 </li>
+					  </ul>
+				   </div>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!--========================================================================================
+								End header area
+	=========================================================================================-->
+	
+	
+	<!-- main section -->
+	<div class="main">
+		<div class="content">
+			<!--========================================================================================
+										Start kit area
+			=========================================================================================-->
+			<section class="kit-area section-padding">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="kit-heading">
+								<h2>UI Kit</h2>
+							</div>
+							<div class="kits-element">
+								<h3>Basic Elements</h3>
+							</div>
+						</div>
+					</div>
+					<!-- Alertas area-->
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="kits-heading">
+								<h3>Alertas / Modal</h3>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<button type="button" class="btn btn-round btn-high" data-toggle="modal" data-target="#mdConfirmation">Demo modal</button>
+							<div class="modal fade" id="mdConfirmation" tabindex="-1" role="dialog" aria-labelledby="mdExampleLabel" aria-hidden="true">
+							   <div class="modal-dialog gov-co-modal gov-co-modal-confirmation" role="document">
+								  <div class="modal-content">
+									 <div class="modal-body">
+										<div class="gov-co-modal-type">
+										   <span class="govco-icon govco-icon-tramite-en-linea"></span>
+										   <h2>Título de la alerta</h2>
+										</div>
+										<div class="gov-co-modal-message">
+										   <p>Información de detalle al cierre de la acción.</p>
+										</div>
+									 </div>
+									 <div class="modal-footer center">
+										<button type="button" class="btn btn-round btn-high" data-dismiss="modal">boton</button>
+										<button type="button" class="btn btn-round btn-middle" data-dismiss="modal">boton</button>
+									 </div>
+								  </div>
+							   </div>
+							</div>
+							
+							<!-- alerts modal -->
+							<button type="button" class="btn btn-round btn-high" data-toggle="modal" data-target="#mdWarning">Demo modal</button>
+							<div class="modal fade" id="mdWarning" tabindex="-1" role="dialog" aria-labelledby="mdWarningLabel" aria-hidden="true">
+							   <div class="modal-dialog gov-co-modal gov-co-modal-warning" role="document">
+								  <div class="modal-content">
+									 <div class="modal-body">
+										<div class="gov-co-modal-type">
+										   <span class="govco-icon govco-icon-exclamation-cn"></span>
+										   <h2>Advertencia</h2>
+										</div>
+										<div class="gov-co-modal-message">
+										   <p>Texto predeterminado.</p>
+										   <p>Puedes escribirnos a soporteccc@mintic.gov.co Llámanos gratis: 01 8000 910742 y en Bogotá: 3 90 79 51</p>
+										</div>
+									 </div>
+									 <div class="modal-footer center">
+										<button type="button" class="btn btn-round btn-high" data-dismiss="modal">boton</button>
+										<button type="button" class="btn btn-round btn-middle" data-dismiss="modal">boton</button>
+									 </div>
+								  </div>
+							   </div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Alertas / Notificación -->
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="kits-heading">
+								<h3>Alertas / Notificación</h3>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<!-- Alertas de exito, clase default alert, clase estado gov-co-alert-sucess -->
+							<div class="alert gov-co-alert-sucess">
+							   <span class="govco-icon govco-icon-tramite-en-linea"></span>
+							   URL funcionando correctamente
+							</div>
+							<!-- Alertas de proceso, clase default alert, clase estado gov-co-alert-process -->
+							<div class="alert gov-co-alert-process">
+							  <span class="govco-icon govco-icon-tramite-en-linea"></span>
+							  Realizando validación de URL
+							</div>
+							<!-- Alertas de error, clase default alert, clase estado gov-co-alert-error -->
+							<div class="alert gov-co-alert-error">
+							  <span class="govco-icon govco-icon-tramite-error"></span>
+							  La URL presenta errores de funcionamiento.
+							</div>
+						</div>
+					</div>
+					
+					<!-- Botones -->
+					<div class="row">
+						<div class="col-xl-12">
+							<div class="kits-heading">
+								<h3>Botones</h3>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="kit-button-area">
+								<!-- Boton basico govco -->
+								<a href="/" class="btn btn-round btn-high">Botón</a>
+
+								<!-- Boton border govco -->
+								<a href="/" class="btn btn-round btn-middle">Botón</a>
+
+								<!-- Boton Textual govco -->
+								<a href="/" class="btn btn-low">Botón</a>
+
+
+								<!-- Boton mixto ícono a la izquierda -->
+								<button type="button" class="btn btn-round btn-high-mix-govco">
+								   <span class="govco-icon govco-icon-pin icon-reverse-x text-white"></span>
+								   <span class="btn-govco-text text-white">Ubicación</span>
+								</button>
+								
+								<!-- Boton deshabilitado -->
+								<a href="/" class="btn btn-round btn-high inactive">Botón</a>
+
+								<!-- Boton border deshabilitado -->
+								<a href="/" class="btn btn-round btn-middle inactive">Botón</a>
+
+								<!-- Boton Textual deshabilitado -->
+								<a href="/" class="btn btn-low inactive">Botón</a>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Collapse -->
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="kits-heading">
+								<h3>Collapse</h3>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="kits-collapse-area">
+								<div class="accordion-govco my-5" id="accordionExampleDemo1">
+									<div class="card">
+										<div class="card-header" id="headingDemo1One">
+											<h2 class="clearfix mb-0">
+												<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOneDemo1" aria-expanded="false" aria-controls="collapseOneDemo1"><span class="bullet">1</span><span class="headline-m-govco">Reunir documentación</span> <span class="govco-icon govco-icon-dropdown-v2"></span></a>
+											</h2>
+										</div>
+										<div id="collapseOneDemo1" class="collapse" aria-labelledby="headingDemo1One" data-parent="#accordionExampleDemo1" style="">
+											<div class="card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum.</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="headingDemo1Two">
+											<h2 class="mb-0">
+												<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwoDemo1" aria-expanded="false" aria-controls="collapseTwoDemo1"><span class="bullet">2</span><span class="headline-m-govco">Realizar pago</span> <span class="govco-icon govco-icon-dropdown-v2"></span></a>
+											</h2>
+										</div>
+										<div id="collapseTwoDemo1" class="collapse" aria-labelledby="headingDemo1Two" data-parent="#accordionExampleDemo1" style="">
+											<div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="headingDemo1Three">
+											<h2 class="mb-0">
+												<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThreeDemo1" aria-expanded="false" aria-controls="collapseThreeDemo1"><span class="bullet">3</span><span class="headline-m-govco">Radicar documentos</span> <span class="govco-icon govco-icon-dropdown-v2"></span></a>
+											</h2>
+										</div>
+										<div id="collapseThreeDemo1" class="collapse" aria-labelledby="headingDemo1Three" data-parent="#accordionExampleDemo1" style="">
+											<div class="card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum.</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Etiquetas -->
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="kits-heading">
+								<h3>Etiquetas</h3>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="kits-input-area">
+								<!-- Etiqueta en estado positivo -->
+								<div class="gov-co-label">
+								   <label>Text example</label>
+								   <span class="govco-icon govco-icon-close"></span>
+								</div>
+								<!-- Etiqueta en estado negativo -->
+								<div class="gov-co-label gov-co-negative">
+								   <label>Text example</label>
+								   <span class="govco-icon govco-icon-close"></span>
+								</div>
+								<!-- Etiqueta tab en estado activa -->
+								<div class="gov-co-label gov-co-active">
+								   <label>Text example</label>
+								</div>
+								<!-- Etiqueta tab en estado negativa -->
+								<div class="gov-co-label gov-co-negative">
+								   <label>Text example</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Indicador de carga -->
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="kits-heading">
+								<h3>Indicador de carga</h3>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="spinner-border" role="status">
+							   <span class="sr-only">Loading...</span>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Paginación -->
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="kits-heading">
+								<h3>Paginación</h3>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<!-- Paginador de basico -->
+							<nav aria-label="Page navigation example" class="pager-govco">
+							   <ul class="pagination">
+								  <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+								  <li class="page-item"><a class="page-link" href="#">1</a></li>
+								  <li class="page-item"><a class="page-link" href="#">2</a></li>
+								  <li class="page-item"><a class="page-link" href="#">3</a></li>
+								  <li class="page-item"><a class="page-link" href="#">4</a></li>
+								  <li class="page-item"><a class="page-link link-points" href="#">...</a></li>
+								  <li class="page-item"><a class="page-link" href="#">20</a></li>
+								  <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
+							   </ul>
+							</nav>
+						</div>
+					</div>
+					
+					<!-- Pestañas -->
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="kits-heading">
+								<h3>Pestañas</h3>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="tabs-govco">
+							   <nav>
+								  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+									 <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#tabExampleA" role="tab"
+										aria-controls="nav-home" aria-selected="true">
+										Tabla 1
+									 </a>
+									 <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#tabExampleB" role="tab"
+										aria-controls="nav-profile" aria-selected="false">
+										Tabla 2
+									 </a>
+								  </div>
+							   </nav>
+
+							   <div class="tab-content" id="nav-tabContent">
+								  <div class="tab-pane fade show active" id="tabExampleA" role="tabpanel" aria-labelledby="nav-home-tab">Contenido Tabla 1</div>
+								  <div class="tab-pane fade" id="tabExampleB" role="tabpanel" aria-labelledby="nav-profile-tab">Contenido Tabla 2</div>
+							   </div>
+							</div>
+							<div class="kits-tab-area row">
+							   <div class="col-5 m-0 p-0">
+								  <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+									 <a class="nav-link active" id="tabDataBasic-tab" data-toggle="pill" href="#tabDataBasic" role="tab"
+									 aria-controls="tabDataBasic" aria-selected="true">Datos Básicos</a>
+									 <a class="nav-link" id="tabDataComplement-tab" data-toggle="pill" href="#tabDataComplement" role="tab"
+									 aria-controls="tabDataComplement" aria-selected="false">Datos Complementarios</a>
+									 <a class="nav-link" id="tabDataResi-tab" data-toggle="pill" href="#tabDataResi" role="tab"
+									 aria-controls="tabDataResi" aria-selected="false">Datos de Residencia</a>
+								  </div>
+							   </div>
+							   <div class="col-7 m-0 p-0">
+								  <div class="tab-content" id="v-pills-tabContent">
+									 <div class="tab-pane fade show active" id="tabDataBasic" role="tabpanel" aria-labelledby="tabDataBasic-tab">
+										Contenido Datos Básicos
+									 </div>
+									 <div class="tab-pane fade" id="tabDataComplement" role="tabpanel" aria-labelledby="tabDataComplement-tab">
+										Contenido Datos Complementarios
+									 </div>
+									 <div class="tab-pane fade" id="tabDataResi" role="tabpanel" aria-labelledby="tabDataResi-tab">
+										Contenido Datos de Residencia
+									 </div>
+								  </div>
+							   </div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Tablas -->
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="kits-heading">
+								<h3>Tablas</h3>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="table-pagination-govco">
+							   <div class="title-table">
+								  <h4>Título tabla</h4>
+							   </div>
+							   <div class="table-pagination-govco">
+								   <div class="title-table">
+									  <h4>Título tabla</h4>
+								   </div>
+								   <div class="content-ctrls-table">
+									  <div class="form-group gov-co-form-group head-table-filter-dropdown">
+										 <div class="gov-co-dropdown">
+											<label for="selectFilter">Filtrar por</label>
+											<select id="selectFilter" class="form-control" title="Escoger">
+											   <option>Opción 1</option>
+											   <option>Opción 2</option>
+											   <option>Opción 3</option>
+											   <option>Opción 4</option>
+											   <option>Opción 5</option>
+											</select>
+										 </div>
+									  </div>
+									  <div class="dataTables_filter">
+										 <label>
+											<input type="search" class="input-search" placeholder="Buscar por palabra" />
+										 </label>
+									  </div>
+									  <div class="content-result-page result-inline">
+										 <div class="form-group gov-co-form-group head-table-dropdown">
+											<div class="gov-co-dropdown">
+											   <label for="selector-simple">Resultados pág.</label>
+											   <select id="selector-simple" class="form-control" title="Escoger">
+												  <option>10</option>
+												  <option>20</option>
+												  <option>40</option>
+												  <option>50</option>
+												  <option>100</option>
+											   </select>
+											</div>
+										 </div>
+										 <div class="dataTables_length">
+											<label>10 de 46 resultados</label>
+											<span class="govco-icon govco-icon-head-arrow-left size-1x"></span>
+											<span class="govco-icon govco-icon-head-arrow-right size-1x"></span>
+										 </div>
+									  </div>
+								   </div>
+								   <table id="DataTables_Table_example" class="table-govco table-responsive-sm table-responsive-md" style="width: 100%">
+									  <thead>
+										 <tr>
+											<th class="table-check">
+											   <div class="checkbox-govco">
+												  <input type="checkbox" id="headCheck" />
+												  <label class="label-checkbox m-auto" for="headCheck">
+													 <div class="chk"></div>
+												  </label>
+											   </div>
+											</th>
+											<th class="table-state">
+											   <div class="dropdown">
+												  <span class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Estado </span>
+												  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+													 <a class="dropdown-item" value="activo">Activo(0)</a>
+													 <a class="dropdown-item" value="inactivo">Inactivo(10)</a>
+												  </div>
+											   </div>
+											</th>
+											<th>No.</th>
+											<th>Código Documento</th>
+											<th>Tipo de Documento</th>
+											<th>Acciones</th>
+										 </tr>
+									  </thead>
+									  <tbody>
+										 <tr>
+											<td class="table-check">
+											   <div class="checkbox-govco">
+												  <input type="checkbox" id="checkA" />
+												  <label class="label-checkbox m-auto" for="checkA">
+													 <div class="chk"></div>
+												  </label>
+											   </div>
+											</td>
+											<td class="state-success">
+											   <span>activo</span>
+											</td>
+											<td class="type-number">1</td>
+											<td class="type-number">2345</td>
+											<td>Certificado de notas y asignaturas activas</td>
+											<td class="table-actions">
+											   <div class="links-actions">
+												  <a class="action-table" href="/">EDITAR</a>
+												  <a class="action-table" href="/">INACTIVAR</a>
+												  <a class="action-table" href="/">vincular</a>
+												  <a class="action-table" href="/">desvincular</a>
+												  <a class="action-table" href="#collapseExample">ver más</a>
+											   </div>
+											   <div id="collapseExample" class="container-fluid">
+												  <div class="row">
+													 <div class="col">
+														<h5 class="title-collapsed">Módulos asignados</h5>
+													 </div>
+												  </div>
+												  <div class="row">
+													 <div class="col">
+														<p class="description-collapsed">En cada módulo que tenga el perfil podrá consultar los permisos que contienen.</p>
+													 </div>
+												  </div>
+												  <div class="row">
+													 <div class="col">
+														<div class="card-header">
+														   <h2 class="clearfix mb-0">
+															  <span>Nombre del módulo</span>
+															  <span>Descripción</span>
+														   </h2>
+														</div>
+													 </div>
+												  </div>
+												  <div class="row">
+													 <div class="col">
+														<div class="accordion-govco my-5" id="accordionExampleDemo1">
+														   <div class="card">
+															  <div class="card-header" id="headingDemo1">
+																 <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseDemo1" aria-expanded="false" aria-controls="collapseDemo1">
+																	<span class="headline-m-govco">Módulo 1</span>
+																	<span class="headline-m-govco">Descripción del módulo y su función</span>
+																	<span class="govco-icon govco-icon-dropdown-v2"></span>
+																 </a>
+															  </div>
+															  <div id="collapseDemo1" class="collapse" aria-labelledby="headingDemo1" data-parent="#accordionExampleDemo1" style="">
+																 <div class="card-body">
+																	<span>Permiso 1</span>
+																	<span>Permiso 2</span>
+																	<span>Permiso 3</span>
+																 </div>
+															  </div>
+														   </div>
+														   <div class="card">
+															  <div class="card-header" id="headingDemo2">
+																 <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseDemo2" aria-expanded="false" aria-controls="collapseDemo2">
+																	<span class="headline-m-govco">Módulo 1</span>
+																	<span class="headline-m-govco">Descripción del módulo y su función</span>
+																	<span class="govco-icon govco-icon-dropdown-v2"></span>
+																 </a>
+															  </div>
+															  <div id="collapseDemo2" class="collapse" aria-labelledby="headingDemo2" data-parent="#accordionExampleDemo1" style="">
+																 <div class="card-body">
+																	<span>Permiso 1</span>
+																	<span>Permiso 2</span>
+																	<span>Permiso 3</span>
+																 </div>
+															  </div>
+														   </div>
+														   <div class="card">
+															  <div class="card-header" id="headingDemo3">
+																 <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseDemo3" aria-expanded="false" aria-controls="collapseDemo3">
+																	<span class="headline-m-govco">Módulo 1</span>
+																	<span class="headline-m-govco">Descripción del módulo y su función</span>
+																	<span class="govco-icon govco-icon-dropdown-v2"></span>
+																 </a>
+															  </div>
+															  <div id="collapseDemo3" class="collapse" aria-labelledby="headingDemo3" data-parent="#accordionExampleDemo1" style="">
+																 <div class="card-body">
+																	<span>Permiso 1</span>
+																	<span>Permiso 2</span>
+																	<span>Permiso 3</span>
+																 </div>
+															  </div>
+														   </div>
+														</div>
+													 </div>
+												  </div>
+											   </div>
+											</td>
+										 </tr>
+										 <tr>
+											<td class="table-check">
+											   <div class="checkbox-govco">
+												  <input type="checkbox" id="check1" />
+												  <label class="label-checkbox m-auto" for="check1">
+													 <div class="chk"></div>
+												  </label>
+											   </div>
+											</td>
+											<td class="state-inactive">
+											   <span>inactivo</span>
+											</td>
+											<td class="type-number">1</td>
+											<td class="type-number">2345</td>
+											<td>Certificado de notas y asignaturas</td>
+											<td class="table-actions">
+											   <div class="links-actions">
+												  <a class="action-table" href="/">EDITAR</a>
+												  <a class="action-table" href="/">INACTIVAR</a>
+												  <a class="action-table" href="#collapseExample">ver más</a>
+											   </div>
+											   <div id="collapseExample" class="container-fluid">
+												  <div class="row">
+													 <div class="col">
+														<h5 class="title-collapsed">Módulos asignados</h5>
+													 </div>
+												  </div>
+												  <div class="row">
+													 <div class="col">
+														<p class="description-collapsed">En cada módulo que tenga el perfil podrá consultar los permisos que contienen.</p>
+													 </div>
+												  </div>
+												  <div class="row">
+													 <div class="col">
+														<div class="card-header">
+														   <h2 class="clearfix mb-0">
+															  <span>Nombre del módulo</span>
+															  <span>Descripción</span>
+														   </h2>
+														</div>
+													 </div>
+												  </div>
+												  <div class="row">
+													 <div class="col">
+														<div class="accordion-govco my-5" id="accordionExampleDemo1">
+														   <div class="card">
+															  <div class="card-header" id="headingDemo1">
+																 <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseDemo1" aria-expanded="false" aria-controls="collapseDemo1">
+																	<span class="headline-m-govco">Módulo 1</span>
+																	<span class="headline-m-govco">Descripción del módulo y su función</span>
+																	<span class="govco-icon govco-icon-dropdown-v2"></span>
+																 </a>
+															  </div>
+															  <div id="collapseDemo1" class="collapse" aria-labelledby="headingDemo1" data-parent="#accordionExampleDemo1" style="">
+																 <div class="card-body">
+																	<span>Permiso 1</span>
+																	<span>Permiso 2</span>
+																	<span>Permiso 3</span>
+																 </div>
+															  </div>
+														   </div>
+														   <div class="card">
+															  <div class="card-header" id="headingDemo2">
+																 <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseDemo2" aria-expanded="false" aria-controls="collapseDemo2">
+																	<span class="headline-m-govco">Módulo 1</span>
+																	<span class="headline-m-govco">Descripción del módulo y su función</span>
+																	<span class="govco-icon govco-icon-dropdown-v2"></span>
+																 </a>
+															  </div>
+															  <div id="collapseDemo2" class="collapse" aria-labelledby="headingDemo2" data-parent="#accordionExampleDemo1" style="">
+																 <div class="card-body">
+																	<span>Permiso 1</span>
+																	<span>Permiso 2</span>
+																	<span>Permiso 3</span>
+																 </div>
+															  </div>
+														   </div>
+														   <div class="card">
+															  <div class="card-header" id="headingDemo3">
+																 <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseDemo3" aria-expanded="false" aria-controls="collapseDemo3">
+																	<span class="headline-m-govco">Módulo 1</span>
+																	<span class="headline-m-govco">Descripción del módulo y su función</span>
+																	<span class="govco-icon govco-icon-dropdown-v2"></span>
+																 </a>
+															  </div>
+															  <div id="collapseDemo3" class="collapse" aria-labelledby="headingDemo3" data-parent="#accordionExampleDemo1" style="">
+																 <div class="card-body">
+																	<span>Permiso 1</span>
+																	<span>Permiso 2</span>
+																	<span>Permiso 3</span>
+																 </div>
+															  </div>
+														   </div>
+														</div>
+													 </div>
+												  </div>
+											   </div>
+											</td>
+										 </tr>
+									  </tbody>
+								   </table>
+								   <div class="content-footer-table">
+									  <div class="cotent-ctrls">
+										 <button class="btn btn-round btn-high">BOTÓN</button>
+									  </div>
+									  <div class="footer-note">
+										 <p>Texto nota - Texto nota - Texto nota - Texto nota - Texto nota - Texto nota - Texto nota - Texto nota</p>
+									  </div>
+								   </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Tooltip area -->
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="kits-heading">
+								<h3>Tooltip</h3>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="tooltip-area">
+								<a href="/" class="btn btn-round btn-high" data-toggle="tooltip" data-placement="top" title="Tooltip arriba">Tooltip arriba</a>
+								<a href="/" class="btn btn-round btn-high" data-toggle="tooltip" data-placement="right" title="Tooltip derecho">Tooltip derecho</a>
+								<a href="/" class="btn btn-round btn-high" data-toggle="tooltip" data-placement="left" title="Tooltip izquierdo">Tooltip izquierdo</a>
+								<a href="/" class="btn btn-round btn-high" data-toggle="tooltip" data-placement="bottom" title="Tooltip abajo">Tooltip abajo</a>
+								<a href="/" class="btn btn-round btn-high" data-toggle="tooltip"  data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">Tooltip con HTML</a>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Carga de archivos -->
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="kits-heading">
+								<h3>Carga de archivos</h3>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<!-- Unico archivo -->
+							<div class="form-group">
+							   <label for="input-file-simple-label">
+								  Archivo(s) soporte de vinculación: <br />
+								  <span>Tipo de archivo permitido .PDF hasta de 2MB</span>
+							   </label>
+							   <div class="custom-file file-govco">
+								  <input type="file" name="inputTypeExample" class="custom-file-input input-file-govco" id="input-file-simple"/>
+								  <label class="custom-file-label label-file-govco" ondrop="utils.dropHandler(event, 'input-file-simple')" ondragover="utils.dragOverHandler(event, 'input-file-simple')" for="input-file-simple"></label>
+							   </div>
+							</div>
+
+							<!-- Multiples archivo -->
+							<div class="form-group">
+							   <label for="input-file-simple-label">
+								  Archivo(s) soporte de vinculación: <br />
+								  <span>Tipo de archivo permitido .PDF hasta de 2MB</span>
+							   </label>
+							   <div class="custom-file file-govco">
+								  <input type="file" name="inputTypeExample" class="custom-file-input input-file-govco" id="input-file-simple" multiple/>
+								  <label class="custom-file-label label-file-govco" ondrop="utils.dropHandler(event, 'input-file-simple')" ondragover="utils.dragOverHandler(event, 'input-file-simple')" for="input-file-simple"></label>
+							   </div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Campo de texto -->
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="kits-heading">
+								<h3>Campo de texto</h3>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<!-- Campo de texto sin estado clase default govco gov-co-form-group -->
+							<div class="form-group gov-co-form-group">
+							   <div class="gov-co-label-counter">
+								 <label for="id">Exampletext</label>
+								 <small>Contexto 0</small>
+							   </div>
+							   <input type="text" class="form-control gov-co-form-control" id="id" aria-describedby="#exampleNote" placeholder="Ej: Campo de texto"/>
+							   <small id="exampleNote" class="form-text">Example note</small>
+							 </div>
+						</div>
+					</div>
+					
+					<!-- Área de texto -->
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="kits-heading">
+								<h3>Área de texto</h3>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="form-group gov-co-form-group">
+							   <label for="id">Example label</label>
+							   <textarea class="form-control" id="id" rows="3" placeholder="Ej: Placeholder"></textarea>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--========================================================================================
+										End kit area
+			=========================================================================================-->
+		</div>
+	</div>
+	
+	
+	<!--========================================================================================
+								Start footer area
+	=========================================================================================-->
+	<footer class="footer-area">
+		<div class="container">
+			<div class="footer-top-area">
+				<div class="row">
+					<div class="col-lg-9">
+						<div class="footer-office-area">
+							<h3>Sede electrónica Alcaldía de Itagüí</h3>
+							<h4>Sede principal</h4>
+							<div class="office-content">
+								<ul>
+									<li>Dirección: Centro Administrativo Municipal de Itagüí, Carrera 51 # 51-55</li>
+									<li>Itagüí, Antioquia - Colombia</li>
+									<li>Código Postal: 055412</li>
+									<li>Horario de Atención: Lunes a Jueves: 07:00 a.m. a 12:20 p.m. - 01:30 p.m. a 04:30</li>
+									<li>p.m. Viernes: 07:00 a.m. a 12:20 p.m. - 01:30 p.m. a 03:30 p.m.Teléfono </li>
+									<li>Conmutador: +57</li>
+									<li>Teléfono:<a href="#"> +(57-4) 373 76 76</a></li>
+									<li>Línea Gratuita:<a href="#"> 018000518225</a></li>
+									<li>Correo Institucional:<a href="#"> contactenos@itagui.gov.co</a></li>
+									<li>Correo de notificaciones judiciales:<a href="#"> notificaciones@itagui.gov.co</a></li>
+								</ul>
+							</div>
+							<div class="footer-social-area">
+								<ul>
+									<li><a href="#"><i class="fab fa-facebook-f"></i>@alcaldiaitagui</a></li>
+									<li><a href="#"><i class="fab fa-twitter"></i>@AlcaldiaItagui</a></li>
+									<li><a href="#"><i class="fab fa-instagram"></i>@alcaldiadeitagui</a></li>
+									<li><a href="#"><i class="fab fa-youtube"></i>Alcaldía Itagüí</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-lg-3">
+						<div class="footer-right-area">
+							<a href="#"><img src="assets/images/logo/logo.png"></a>
+							<div class="footer-link">
+								<ul>
+									<li><a href="#">Políticas</a></li>
+									<li><a href="#">Directorio de funcionarios</a></li>
+									<li><a href="#">Directorio de dependencias</a></li>
+									<li><a href="#">Sucursales o regionales</a></li>
+									<li><a href="#">PQRS</a></li>
+									<li><a href="#">Mapa del sitio</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			
+		<div class="footer-bottom-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="footer-logo-gallery">
+							<a href="#"><img src="assets/images/logo/cap.png" alt="image"></a>
+							<a href="#"><img src="assets/images/logo/top-logo.png" alt="image"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--========================================================================================
+								Start footer area
+	=========================================================================================-->
+	<div class="block block--gov-accessibility position-inherit">
+		<div class="block-options navbar-expanded">
+			<a class="contrast-ref" href="javascript:void(0)" onclick="changeFilter(1);">
+			 <span class="govco-icon govco-icon-contrast-n"></span>
+			 <label> Contraste </label>
+			</a>
+			<a class="min-fontsize">
+				<span class="govco-icon govco-icon-less-size-n"></span>
+				<label class="align-middle"> Reducir letra</label>
+			</a>
+			<a class="max-fontsize">
+				<span class="govco-icon govco-icon-more-size-n"></span>
+				<label class="align-middle"> Aumentar letra</label>
+			</a>
+			<a target="_blank" href="https://centroderelevo.gov.co/632/w3-channel.html">
+				<span class="govco-icon govco-icon-relief-n"></span>
+				<label class="align-middle"> Centro de relevo</label>
+		</a>
+	   </div>
+	</div>
+	
+	<div class="scroll-to-top show-scrollTop">
+		<button onClick={this.scrollToTop.bind(this)}>
+			<span class="govco-icon govco-icon-shortu-arrow-n btn-svg-up-hover"></span>
+			<span class="label-button-star-up"> Volver a arriba </span>
+		</button>
+	</div>  
+	<script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'es' }, 'google_translate_element');
+        }
+		var flags = document.getElementsByClassName('flag_link'); 
+		Array.prototype.forEach.call(flags, function(e){
+		  e.addEventListener('click', function(){
+			var lang = e.getAttribute('data-lang'); 
+			var languageSelect = document.querySelector("select.goog-te-combo");
+			languageSelect.value = lang; 
+			languageSelect.dispatchEvent(new Event("change"));
+		  }); 
+		});
+    </script>
+	  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<!--jquery js-->
+	<script src="assets/js/vendor/jquery.js"></script>
+	<!--modernizr js-->
+	<script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+	<!--popper js-->
+	<script src="assets/js/popper.js"></script>
+	<!--jquery ui js-->
+	<script src="assets/js/jquery-ui.min.js"></script>
+	<!--bootstrap js-->
+	<script src="assets/js/bootstrap.min.js"></script>	
+    <script src="assets/js/until.js"></script>
+	<!--carousel js-->
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<!--custom js-->
+	<script src="assets/js/custom.js"></script>
+	<script>
+		const configTable = {
+		   idSelector: 'DataTables_Table_example',
+		   pagingType: 'simple_numbers',
+		   responsive: 'true',
+		   info: false,
+		   language: {
+			  emptyTable: 'No se encontraron registros coincidentes',
+		   },
+		};
+		utils.setConfigTable(configTable);
+	</script>
+</body>
+</html>
